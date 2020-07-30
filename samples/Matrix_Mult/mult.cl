@@ -7,8 +7,8 @@ __kernel void multiply (
                          int heightA,
                          int heightB,
                          __global float *inputA,
-                         __global float *inputB){
-
+                         __global float *inputB)
+{
     //get global position in the X direction
     int col = get_global_id(0);
     //get global position in the Y direction
