@@ -4,8 +4,8 @@
 #include <math.h>
 #include <OpenCL/opencl.h>
 
-#define MAX_SOURCE_SIZE(0x1000000)
-#define DEVICE_NAME_LEN(128)
+#define MAX_SOURCE_SIZE 0x1000000
+#define DEVICE_NAME_LEN 128
 
 static char dev_name[DEVICE_NAME_LEN];
 
@@ -31,7 +31,7 @@ int main(){
   cl_kernel kernel = NULL;
 
   FILE *fp;
-  char filename = "./mult.cl";
+  char *filename = "./mult.cl";
   char *source_str;
   size_t source_size;
 
