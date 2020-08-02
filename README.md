@@ -1,1 +1,1 @@
-Programs that use OpenCl
+Programs that use OpenCl. These programs run on the MacOS. 
