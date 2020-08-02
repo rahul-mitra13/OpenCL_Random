@@ -1,3 +1,4 @@
+//This code is based on EECE.5610 - Heterogenous Computing from UMass Lowell.
 // width(vec A) = height(vec B) for valid multiplaction
 
 __kernel void multiply (
